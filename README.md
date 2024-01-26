@@ -45,4 +45,4 @@ https://github.com/NinjaDevloper/PRODIGY_WD_04/assets/155881587/19d9371f-1f70-48
 1. Clone the repository:
 
    ```bash
-   https://github.com/NinjaDevloper/PRODIGY_WD_02.git
+   https://github.com/NinjaDevloper/PRODIGY_WD_04.git
