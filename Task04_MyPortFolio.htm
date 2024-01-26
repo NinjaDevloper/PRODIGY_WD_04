@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/./shopsify.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <link rel="stylesheet" href="./assests/css/styles.css">
+    <style>
+      
+
+
+    </style>
+</head>
+
+    
+
+<script>
+  function opens() {
+    document.getElementById('sidebar').style.width = "40%";
+    document.getElementById('sidebar').style.height = "340px";
+}
+function closes() {
+    document.getElementById('sidebar').style.width = "0px"
+}
+</script>
+
+<body>
+   
+    <header class="container-fluid d-flex bg-black justify-content-between">
+        <a class="" href="#" > <div class="width-33 logo">Port <span class="span-col">folio</span>
+        </div></a>
+        <nav class="d-flex ">
+            
+            
+      
+           
+        <div class=" text-white d-none d-lg-block  " id="navbarNav">
+                        <ul class="text-white d-flex" style="align-items: center; align-self: center; list-style-type: none;">
+                            <span class="nav-item active mt-2">
+                                <a class="nav-link fs-5 fw-medium  ms-2" href="#">Home</a>
+                            </span>
+                            <span class="nav-item mt-2">
+                                <a class="nav-link fs-5 fw-medium ms-2" href="#about">About Me</a>
+                            </span>
+                            <li class="nav-item mt-2">
+                                <a class="nav-link fs-5 fw-medium ms-2" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item mt-2">
+                                <a class="nav-link fs-5 fw-medium  ms-2" href="#service">My Service</a>
+                            </li>
+                            <li class="nav-item mt-2">
+                                <a class="nav-link fs-5 fw-medium  ms-2" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item mt-2">
+                                <a class="nav-link fs-5 fw-medium  ms-2" href="#testi">Testimonial</a>
+                            </li>
+                        </ul>
+    
+                        </div> 
+          <button onclick=" opens()" class="d-block bg-black border-0 d-lg-none"><i class="fa-solid fa-bars fs-3"
+                                        style="color: #bac518;"></i></button>
+    
+                        <div class="sidebar bg-none text-black" id="sidebar">
+                            <div style="float: right; margin-right: 70px; margin-top: 40px; color: #010a6d;"
+                                class="fs-3 bg-none" role="button" onclick="closes()">X</div>
+    
+                            <ul style="list-style-type: none ;  margin-top: 60px; margin-right: 70px;">
+                                <li class="border border-top-0 border-start-0 border-end-0 pb-3 kl fs-5" role="button">
+                                     <a href="#" class="text-black">Home</a> </li>
+                                <li class="border border-top-0 border-start-0 border-end-0 pb-3 kl fs-5" role="button">
+                                    <a href="#about" class="text-black">About Me</a></li>
+                                <li class="border border-top-0 border-start-0 border-end-0 pb-3 kl fs-5" role="button">
+                                    <a href="#education" class="text-black">Education</a></li>
+                                <li class="border border-top-0 border-start-0 border-end-0 pb-3 kl fs-5" role="button">
+                                    <a href="#service" class="text-black">My Service</a></li>
+                                <li class="border border-top-0 border-start-0 border-end-0 pb-3 kl fs-5" role="button">
+                                    <a href="#" class="text-black">PortFolio</a></li>
+                                <li class="border border-top-0 border-start-0 border-end-0 pb-3 kl fs-5" role="button">
+                                    <a href="#testi" class="text-black">Testimonial</a></li>
+                            </ul>
+                        </div>
+    
+        </nav>
+    
+    </header>
+
+<!------MAIN BANNERR------>
+<div class="container pt-5 my-5 d-flex row align-items-center" style="z-index: -1;">
+    <div class="width-50">
+      <div class="banner-section">
+        <span class="span-col">Welcome To My Portfolio</span>
+        <h1>Ravi <span class="span-col">R.</span> Takale
+        </h1>
+        <h2>- I'm a passionate Web Developer from TBC.</h2>
+        <a href="#">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <div class="width-50 d-none d-lg-block  d-md-block">
+        <img src="./assests/img/ravi takale.png" class="rounded rounded-pill ms-4" width="90%" alt="">
+    </div>
+  </div>
+  <!------ABOUT US SECTION------>
+  <div id="about" class="main-section bg-lightgrey container-fluid">
+    <div class="container d-flex align-items-center justify-content-center text-center">
+      
+      <div class="width-50">
+        <div class="about-us">
+          <h2 class="heading-text">About Us</h2>
+          <h3>I am available for Web Development Project</h3>
+          <p>Hi, I am Ravi Takale, From Beed, India. Get best computer science student portfolio website Genius In You With Genius 2024.</p>
+          <div class="row justify-content-center">
+            <div class="col-lg-6 col-12 width-50 w-lg-50  mt-20">
+                <table >
+                  <tr>
+                    <th>Name:</th>
+                    <td>Ravi Takle</td>
+                  </tr>
+                  <tr>
+                    <th>Email:</th>
+                    <td>ravitakleg1@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <th>Birthday:</th>
+                    <td> 1st July 2005</td>
+                  </tr>
+                  <tr>
+                    <th>Study:</th>
+                    <td> Mysore University</td>
+                  </tr>
+                </table>
+              </div>
+              <div class="justify-content-between  align-items-center text-align-center text-center col-lg-6 col-12 width-50 mt-20 ">
+                <table >
+                  <tr>
+                    <th>Phone:</th>
+                    <td>7887507538</td>
+                  </tr>
+                  <tr >
+                    <th class=" pl-lg-5 pl-0" >City:</th>
+                    <td>New York, USA</td>
+                  </tr>
+                  <tr>
+                    <th>Freelancer:</th>
+                    <td> Available</td>
+                  </tr>
+                  <tr>
+                    <th>Branch:</th>
+                    <td> IT</td>
+                  </tr>
+                </table>
+              </div>
+          </div>
+        
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------SKILL SECTION------>
+  <div class="main-section">
+    <div class="container">
+      <h2 class="heading-text">My Skills</h2>
+      <div class="width-50">
+        <div class="skill">
+          <b>HTML</b>
+          <span>95%</span>
+          <div>
+            <span style="width:95%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <b>CSS</b>
+          <span>91%</span>
+          <div>
+            <span style="width:91%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <b>JavaScript</b>
+          <span>85%</span>
+          <div>
+            <span style="width:85%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <b>Bootstrap</b>
+          <span>83%</span>
+          <div>
+            <span style="width:85%"></span>
+          </div>
+        </div>
+        <div class="skill">
+          <b>React js</b>
+          <span>79%</span>
+          <div>
+            <span style="width:79%"></span>
+          </div>
+        </div>
+      </div>
+      <div class="width-50">
+        <div class="width-50">
+          <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:65">React-65</div>
+        </div>
+        <div class="width-50">
+          <div role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="--value:85">Jquery-85</div>
+        </div>
+        <div class="width-50">
+          <div role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="--value:65">Node-65</div>
+        </div>
+        <div class="width-50">
+          <div role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="--value:85">CMD-85</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------EXPERIENCE SECTION------>
+  <div id="education" class="main-section bg-lightgrey">
+    <div class="container">
+      <div class="edu-exp">
+        <h2 class="heading-text">Education</h2>
+        <div class="experience-list">
+          <div class="experience-content">
+            <h2> Z.P.H.S.Chaklamba</h2>
+            <h3 class="mt-3">2011-2021</h3>
+            <p>Secondary School Certificate</p>
+            <p class="lh-0">89%</p>
+          </div>
+        </div>
+        <div class="experience-list">
+          <div class="experience-content">
+            <h2>P.V.P. Loni</h2>
+            <h3 class="mt-3">2021-2023</h3>
+            <p>Higher Secondary Certificate </p> 
+            <p>82%</p>
+          </div>
+        </div>
+        <div class="experience-list">
+          <div class="experience-content">
+            <h2>Mysore University of Karnatka</h2>
+            <h3>2023-2027</h3>
+            <p>Bachelor in Computer Engineering</p>
+          </div>
+        </div>
+      </div>
+      <div class="edu-exp">
+        <h2 class="heading-text">Experience</h2>
+        <div class="experience-list">
+          <div class="experience-content">
+            <h2>The Baap Company </h2>
+            <h3>2023-current</h3>
+            <p>Web Development </p>
+          </div>
+        </div>
+        <div class="experience-list">
+          <div class="experience-content">
+            <h2>Education Hive</h2>
+            <h3>2022-Current</h3>
+            <p>Content Creator.</p>
+          </div>
+        </div>
+        <div class="experience-list">
+          <div class="experience-content">
+            <h2>Prodigy InfoTech</h2>
+            <h3>2024-Current</h3>
+            <p>Font End Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------SERVICE SECTION------>
+  <div id="service" class="main-section">
+    <div class="container">
+      <h2 class="heading-text">My Service</h2>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="fa-brands fa-chrome"></i>
+          <h3>Web Development</h3>
+        </div>
+      </div>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="fa-brands fa-instagram"></i>
+          <h3>Web Design</h3>
+        </div>
+      </div>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="fa-brands fa-reddit"></i>
+          <h3>Creative Design</h3>
+        </div>
+      </div>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="fa fa-video-camera"></i>
+          <h3>Video Editing</h3>
+        </div>
+      </div>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="fa  fa-camera"></i>
+          <h3>Photography</h3>
+        </div>
+      </div>
+      <div class="width-50">
+        <div class="service-list">
+          <i class="fa-brands fa-apple"></i>
+          <h3>App Developing</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------TESTIMONIAL SECTION------>
+  <div id="testi" class="main-section bg-lightgrey">
+    <div class="container">
+      <h2 class="heading-text">What Client Say's </h2>
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <div class="testimonial-img">
+            <img src="https://www.apptio.com/wp-content/uploads/Tiago_Nascimento-halfbody-1.png">
+          </div>
+          <i class="fa fa-quote-left"></i>
+          <p> Contrary to popular belief, I will provide free portfolio website templates. It has roots in a piece of classical Latin literature from 45 BC, making it. Richard McClintock, Hampden-Sydney College.</p>
+          <div class="testimonial-name">
+            <h5>Johndove</h5>
+            <p>Data Analysis</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <div class="testimonial-img">
+            <img src="https://www.cliffordchance.com/content/dam/cliffordchance/profiles/600000/629477-half.png/_jcr_content/renditions/original">
+          </div>
+          <i class="fa fa-quote-left"></i>
+          <p> Contrary to popular belief, I will provide free portfolio website templates. It has roots in a piece of classical Latin literature from 45 BC, making it. Richard McClintock, Hampden-Sydney College.</p>
+          <div class="testimonial-name">
+            <h5>Johndove</h5>
+            <p>Data Analysis</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <div class="testimonial-img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ_WU4Bo9WMCCqcjqQNyDlLAaXebnDoQSN5Q&usqp=CAU">
+          </div>
+          <i class="fa fa-quote-left"></i>
+          <p> Contrary to popular belief, I will provide free portfolio website templates. It has roots in a piece of classical Latin literature from 45 BC, making it. Richard McClintock, Hampden-Sydney College.</p>
+          <div class="testimonial-name">
+            <h5>Johndove</h5>
+            <p>Data Analysis</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  <!-------------CONTACT US SECTION----------------------->
+  <div class="main-section contact bg-lightgrey">
+    <div class="container">
+      <h2 class="heading-text">Get In Touch</h2>
+      <div class="width-100">
+        <form>
+          <input type="text" placeholder="Full Name...">
+          <input type="text" placeholder="Full Email Id...">
+          <input type="text" placeholder="Full Mobile No...">
+          <textarea placeholder="Enter Address..."></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="width-33">
+        <h3>
+          <i class="fa fa-map-marker"></i>
+        </h3>
+        <h4>Address</h4>
+        <p>Georai, Beed , Maharastra , India </p>
+      </div>
+      <div class="width-33">
+        <h3>
+          <i class="fa fa-phone"></i>
+        </h3>
+        <h4>Phone</h4>
+        <p>+91 78 87 507 538</p>
+      </div>
+      <div class="width-33">
+        <h3>
+          <i class="fa fa-envelope-o"></i>
+        </h3>
+        <h4>Email</h4>
+        <p>ravitakale901198@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  <!------FOOTER SECTION------>
+  <div class="footer text-center">
+    <div class="container text-center">
+      <div class="footer-sect social-icon width-100">
+        <a href="#">
+          <i class="fa-brands text-white fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="./assests/js/script.js"></script>
+
+</body>
+
+</html>
